@@ -7,7 +7,6 @@ A class with ad. pics auotmatic scrolling build in swift with image cache policy
 Manual:
 
 Download This Project and drag the `FGSwiftAutoScrollView` folder into your peroject, do not forget to ensure "copy item if need" being selected.
-```
 
 ###Usage
 - Load Web Images：

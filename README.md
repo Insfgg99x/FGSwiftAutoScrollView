@@ -57,8 +57,8 @@ Download This Project and drag the `FGSwiftAutoScrollView` folder into your pero
 - you can simply use the srcoll call back block if need (not necessary)
 ```
 self.banner?.imageDidScrolledBlock={ (currentIndex) in
-            
-            print("滚到到了第"+String(currentIndex)+"页了")
+
+    print("滚到到了第"+String(currentIndex)+"页了")
 }
 ```
 ###Explain：

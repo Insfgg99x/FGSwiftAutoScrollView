@@ -7,10 +7,6 @@ A class with ad. pics auotmatic scrolling build in swift with image cache policy
 Manual:
 
 Download This Project and drag the `FGSwiftAutoScrollView` folder into your peroject, do not forget to ensure "copy item if need" being selected.
-
-Cocoapods:
-```
-pod 'FGSwiftAutoScrollView', '~> 1.0.0'
 ```
 
 ###Usage
@@ -64,7 +60,7 @@ pod 'FGSwiftAutoScrollView', '~> 1.0.0'
 self.banner?.imageDidScrolledBlock={ (currentIndex) in
             
             print("滚到到了第"+String(currentIndex)+"页了")
-        }
+}
 ```
 ###Explain：
 If you don't need add image tap action, property didSelectedImageAction  block can be nil.

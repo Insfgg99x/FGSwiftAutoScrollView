@@ -176,9 +176,10 @@ class FGSwiftAutoScrollView: UIView,UIScrollViewDelegate{
                 }else{
                     urlString=imageUrlArray?.first
                 }
-                self.fg_setImageWithUrlString(imageView: imv,
-                                              urlString: urlString,
-                                              placeHolder:self.placeHolderImage)
+//                self.fg_setImageWithUrlString(imageView: imv,
+//                                              urlString: urlString,
+//                                              placeHolder:self.placeHolderImage)
+                imv.fg_setImageWithUrl(urlString: urlString, placeHolder: self.placeHolderImage)
                 
             }
         }

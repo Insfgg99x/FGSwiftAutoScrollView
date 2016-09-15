@@ -25,8 +25,8 @@ class ViewController: UIViewController {
         
     }
     func createUI(){
-        //self.remoteImageExample()//example of load web images
-        self.localImageExample()//example of load local images
+        self.remoteImageExample()//example of load web images
+//        self.localImageExample()//example of load local images
     }
     func remoteImageExample(){
         

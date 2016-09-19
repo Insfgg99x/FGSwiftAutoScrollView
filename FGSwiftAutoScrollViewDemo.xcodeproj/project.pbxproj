@@ -17,6 +17,7 @@
 		18484EBB1D83BA1500230B94 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18484EB71D83BA1500230B94 /* 2.jpg */; };
 		18484EBC1D83BA1500230B94 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18484EB81D83BA1500230B94 /* 3.jpg */; };
 		18484EBD1D83BA1500230B94 /* 影子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18484EB91D83BA1500230B94 /* 影子.jpg */; };
+		18A9004C1D85D7960082DFA2 /* FGWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9004B1D85D7960082DFA2 /* FGWebImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		18484EB71D83BA1500230B94 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		18484EB81D83BA1500230B94 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		18484EB91D83BA1500230B94 /* 影子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "影子.jpg"; sourceTree = "<group>"; };
+		18A9004B1D85D7960082DFA2 /* FGWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGWebImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		18484EB21D83B73D00230B94 /* FGSwiftAutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				18A9004B1D85D7960082DFA2 /* FGWebImage.swift */,
 				18484EB31D83B76C00230B94 /* FGSwiftAutoScrollView.swift */,
 			);
 			path = FGSwiftAutoScrollView;
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18484EA31D83B70C00230B94 /* ViewController.swift in Sources */,
+				18A9004C1D85D7960082DFA2 /* FGWebImage.swift in Sources */,
 				18484EB41D83B76C00230B94 /* FGSwiftAutoScrollView.swift in Sources */,
 				18484EA11D83B70C00230B94 /* AppDelegate.swift in Sources */,
 			);
